@@ -1,0 +1,30 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      border-radius: 10px;
+      margin: 30px;
+      padding: 50px;
+      box-shadow: 5px 5px 5px 5px rgb(107, 106, 106);
+    }
+
+    .text {
+      text-align: justify;
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
+
+    .read-more-btn {
+      padding: 10px 20px;
+    }
+
+    .more-text {
+      display: none;
+    }
+
+    .text.show-more .more-text {
+      display: inline;
+    }
